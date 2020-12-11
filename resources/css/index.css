@@ -1,0 +1,102 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: 'Red Rose';
+	background-color: #311B01;
+	font-size: 18px;
+	height: 100vh;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+#content{
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+
+}
+
+#canvas {
+	width: 71.8%;
+	height: 100%;
+	float:left;
+	padding-bottom: -20px;
+}
+
+#sidebar{
+	display: inline-block;
+	background-color: #002415;
+	height: 100%;
+	width: 28%;
+	float:right;
+	border-left: 1px solid #777777;
+	text-align: center;
+}
+
+#maintitle {
+	color: white;
+	padding-top: 30px;
+}
+
+#floweroptions {
+	margin-left: 45px;
+}
+
+#caflowers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flower {
+	width: 150px;
+	margin: 5px;
+	border-radius: 30px;
+}
+
+.flower:hover {
+	background-color: rgba(170, 169, 169, 0.3);
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.imgcontainer {
+	overflow: auto;
+}
+
+.info_popup {
+	visibility: hidden;
+	text-align: center;
+	color: #002415;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+	position: relative;
+}
+
+.info_popup .arrow {
+	width: 1.5px;
+	border-style: solid;
+	border-color: white transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    position: absolute;
+    bottom: -7px;
+    left: 45%;
+}
+
+.imgcontainer:hover .info_popup {
+	visibility: visible;
+}
+
+.active {
+	background-color: rgba(170, 169, 169, 0.3);
+}
+
+#howtobutton {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: white;
+}

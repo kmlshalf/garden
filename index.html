@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<!-- Site accent color: #FF704B -->
+<!-- Main text color: #333333 -->
+<head>
+	<title>Flower Garden</title>
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta charset="UTF-8"> 
+	<meta content="width=device-width, initial-scale=1 user-scalable=yes" name="viewport"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <script src="resources/js/sketch.js"></script>
+</head>
+	<body>
+		<div id="content">
+			<div id="canvas"></div>
+			<div id="sidebar">
+				<h1 id="maintitle">Plant Nursery</h1>
+				<div id="floweroptions">
+					<div id="caflowers">
+						<div class="imgcontainer">
+							<div class="info_popup">
+								<div class="arrow"></div>
+								California Poppy</div>
+							<img id="poppy" class="ca flower active" src="resources/img/capoppy.png" alt="california poppy flower" onClick="addActive('poppy')"/>
+						</div>
+						<div class="imgcontainer">
+							<div class="info_popup">
+								<div class="arrow"></div>
+								Tree Anemone</div>
+							<img id="carpenteria" class="ca flower" src="resources/img/carpenteria.png" alt="tree anemone flower" onClick="addActive('carpenteria')"/>
+						</div>
+						<div class="imgcontainer">
+							<div class="info_popup">
+								<div class="arrow bottom"></div>
+								California Brittlebush</div>
+							<img id="enceliaca" class="ca flower" src="resources/img/enceliacacalifornica.png" alt="california brittlebush flower" onClick="addActive('enceliaca')"/>
+						</div>
+						<div class="imgcontainer">
+							<div class="info_popup">
+								<div class="arrow"></div>
+								Meadowfoam</div>
+							<img id="meadowfoam" class="ca flower" src="resources/img/meadowfoam.png" alt="point reyes meadowfoam flower" onClick="addActive('meadowfoam')"/>
+						</div>
+						<div class="imgcontainer">
+							<div class="info_popup">
+								<div class="arrow"></div>
+								California Wild Rose</div>
+							<img id="wildrose" class="ca flower" src="resources/img/wildrose.png" alt="california wild rose flower" onClick="addActive('wildrose')"/>
+						</div>
+					</div>
+				</div>
+				<!-- <div id="howtobutton">How To Play</div> -->
+			</div>
+		</div>
+		<script src="resources/js/scripts.js"></script>
+	</body>
+</html>
